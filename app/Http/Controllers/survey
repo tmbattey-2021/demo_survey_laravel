@@ -1,0 +1,56 @@
+!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Demo Survey </title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="style-chat.css">
+
+    </head>
+
+    <body>
+
+        <h1>Clingen Demographic Survey</h1>
+        
+        <section>
+    <h2>Background and Purpose</h2>
+    <p>Why are we asking for this information? The Clinical Genome Resource values the diversity of our participants, and works to maintain a culture of acceptance, accessibility and diversity (see our Justice, Equity, Diversity and Inclusion JEDI Action Plan: (<a href="https://clinicalgenome.org/working-groups/jedi-advisory-board/" target="_blank">Visit site</a> ).  Providing this information will help us to better understand our ClinGen community, focus current efforts to enhance diversity, and identify areas for future outreach. We sincerely appreciate your time, attention, and willingness to help.</p>
+    
+    <p>Who can access my data? Only a small number of ClinGen staff members will have access to the demographic data.  We will not share any individual data. Data may be shared/presented in aggregate.</p>
+    
+    <p>What do we do with this data? This is entirely for internal and informational use to understand our participants. For example, we might use this information to focus efforts on engaging early or mid-career scientists, or to develop materials for enhanced learning accessibility based on participant feedback.</p>
+    
+    <p> Please note:  Please select 'Prefer not to answer' for any questions you do not wish to answer</p>
+
+</section>
+
+<form method="post" action="/Tests/Post/">  
+
+    <fieldset>     
+<section>
+    <h2>Participant Information on Country, Race/Ethnicity, Age and Identity</h2>
+    <h3>Basic Demographics</h3>
+    
+    <label for="country">In which country were you born?</label><span style="color: red !important; display: inline; float: none;"></span>      
+        
+            <select id="country" name="country" class="form-control">
+                <option value="">Select country</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Åland Islands">Åland Islands</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="American Samoa">American Samoa</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+            </select>
+            
+            <label>Other</label>     
+            <input class="w3-input" type="text">
+            
+            <label>Prefer not to answer</label>
+            <input id="opt_out" class="w3-check" type="checkbox">
+    
+            </div>
